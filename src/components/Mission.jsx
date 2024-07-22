@@ -15,7 +15,7 @@ const Mission = () => {
             muted
             loop
             playsInline
-            poster={missionImg}
+            // poster={missionImg}
           >
             <source src={mission} type="video/mp4" />
           </video>

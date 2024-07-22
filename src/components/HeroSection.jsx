@@ -14,7 +14,7 @@ const HeroSection = () => {
           autoPlay
           loop
           playsInline
-          poster={hero}
+          // poster={hero}
         ></video>
       </div>
 
