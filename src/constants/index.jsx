@@ -13,10 +13,13 @@ import italian from "../assets/italian.jpeg";
 import japanese from "../assets/japanese.jpeg";
 import indian from "../assets/indian.jpeg";
 
-import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+
 
 export const LINKS = [
-  { text: "Dishes", targetId: "dishes" },
+  { text: "Drink", targetId: "dishes" },
   { text: "About", targetId: "about" },
   { text: "Mission", targetId: "mission" },
   { text: "Expertise", targetId: "expertise" },
@@ -125,17 +128,16 @@ export const CONTACT = [
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
-  {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
-  },
-
-  {
-    href: "https://x.com/",
-    icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={30} className="hover:opacity-80" />,
-  },
+{
+  href: "https://facebook.com/",
+  icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
+},
+{
+  href: "https://telegram.org/",
+  icon: <FaTelegramPlane fontSize={30} className="hover:opacity-80" />,
+},
+{
+  href: "mailto:example@gmail.com",
+  icon: <SiGmail fontSize={30} className="hover:opacity-80" />,
+},
 ];
