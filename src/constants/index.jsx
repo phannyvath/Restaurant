@@ -9,9 +9,9 @@ import dish8 from "../assets/dish8.jpeg";
 import dish9 from "../assets/dish9.jpeg";
 import dish10 from "../assets/dish10.jpeg";
 
-import italian from "../assets/italian.jpeg";
-import japanese from "../assets/japanese.jpeg";
-import indian from "../assets/indian.jpeg";
+import coffee from "../assets/coffee.jpg";
+import matcha from "../assets/matcha.jpg";
+import bakery from "../assets/bakery.jpg";
 
 import { FaFacebook } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -82,7 +82,7 @@ export const DISHES = [
 ];
 
 export const ABOUT = {
-  header: "We love cooking!",
+  header: "We love Drinking!",
   content:
     "At Restaura, we believe that great food goes beyond taste; it tells a story of dedication and creativity. From our chef's signature creations to our attentive service, every detail is curated to ensure your visit is nothing short of exceptional. Whether you're savoring our renowned Tikka Kebab or exploring our diverse menu inspired by global flavors, each dish is a celebration of flavor and innovation. Join us for a culinary journey where every bite leaves a lasting impression. Experience Restaura—where every meal is a masterpiece.",
 };
@@ -93,22 +93,22 @@ export const MISSION =
 export const CUSINES = [
   {
     number: "01.",
-    image: italian,
-    title: "Italian",
+    image: coffee,
+    title: "Coffee",
     description:
       "Experience the flavors of Italy with our exquisite Italian cuisine, featuring traditional recipes and contemporary dishes.",
   },
   {
     number: "02.",
-    image: japanese,
-    title: "Japanese",
+    image: matcha,
+    title: "Matcha",
     description:
       "Delight in the art of Japanese culinary excellence, offering a fusion of classic and modern flavors.",
   },
   {
     number: "03.",
-    image: indian,
-    title: "Indian",
+    image: bakery,
+    title: "Bakery",
     description:
       "Indulge in the rich and diverse tastes of India, with a menu that celebrates the country's culinary heritage.",
   },
