@@ -7,7 +7,7 @@ const Dishes = () => {
       <h2 className=" mb-8 text-center text-3xl tracking-tighter lg:text-4xl">
         Signature Drinks
       </h2>
-      <div className=" grid grid-cols-1 gap-8 md:grid-cols-5">
+      <div className=" grid grid-cols-1 gap-8 md:grid-cols-4">
         {DISHES.map((project, index) => (
           <DishCard key={index} project={project} />
         ))}

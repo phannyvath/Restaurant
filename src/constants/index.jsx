@@ -68,17 +68,7 @@ export const DISHES = [
     title: "Peking Duck",
     description: "Crispy duck with pancakes, cucumber, and hoisin sauce",
   },
-  {
-    image: dish9,
-    title: "Beef Wellington",
-    description: "Tender beef filet wrapped in pastry with mushrooms and herbs",
-  },
-  {
-    image: dish10,
-    title: "Tiramisu",
-    description:
-      "Italian dessert with layers of coffee-soaked biscuits and mascarpone",
-  },
+
 ];
 
 export const ABOUT = {
